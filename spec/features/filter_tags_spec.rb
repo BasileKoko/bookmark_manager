@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-feature 'filter tags' do
-  scenario 'display tags with bubbles' do
-    visit '/tags/bubbles'
-    expect(page).to have_content "bubbles"
-=======
 feature 'Viewing links' do
   scenario "Shows list of bookmarks on home screen" do
 
@@ -33,6 +27,5 @@ feature 'Viewing links' do
       expect(page).to have_content('This is Zombocom')
       expect(page).to have_content('Bubble Bobble')
     end
->>>>>>> day-two
   end
 end

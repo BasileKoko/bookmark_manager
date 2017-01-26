@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <% if flash[:notice] %>
+    <div id='notice'><%= flash[:notice] %></div>
+  <% end %>
     <title>Bookmark Manager</title>
   </head>
 

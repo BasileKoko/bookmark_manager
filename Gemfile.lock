@@ -84,6 +84,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rake (12.0.0)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
       rspec-expectations (~> 3.5.0)
@@ -123,10 +124,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt
   capybara
   data_mapper
   database_cleaner
   dm-postgres-adapter
+  rake
   rspec
   rspec-sinatra
   selenium-webdriver
@@ -136,4 +139,4 @@ RUBY VERSION
    ruby 2.3.3p222
 
 BUNDLED WITH
-   1.13.7
+   1.14.2

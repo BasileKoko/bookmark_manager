@@ -6,9 +6,7 @@ feature 'add links' do
     fill_in('title', with: 'BBC')
     fill_in('url', with: 'http://www.bbc.co.uk')
     fill_in('tags',  with: 'education')
-
     click_button('Submit')
-
     expect(page).to have_content 'http://www.bbc.co.uk'
   end
 end
